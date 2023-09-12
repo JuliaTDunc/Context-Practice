@@ -1,5 +1,5 @@
-function allTheArgs(func, ...args) {
-  // Your code here
+const allTheArgs = (func, ...args) => {
+  return func.bind(this, ...args)
 }
 
 /*****************************************************************************/
